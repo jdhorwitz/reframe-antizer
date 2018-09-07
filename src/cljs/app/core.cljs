@@ -5,9 +5,7 @@
    [app.events :as events]
    [app.routes :as routes]
    [app.views :as views]
-   [app.config :as config]
-   ))
-
+   [app.config :as config]))
 
 (defn dev-setup []
   (when config/debug?
